@@ -26,7 +26,7 @@ function myTodFunc() {
     myCheckbox.className = "my-checkbox";
     myCheckbox.type = "checkbox";
     myCheckbox.style.position = "absolute";
-    myCheckbox.style.left = "2rem";
+    myCheckbox.style.left = "0px";
     myCheckbox.style.marginTop = "30px";
     myDiv.appendChild(myCheckbox);
 
@@ -36,7 +36,7 @@ function myTodFunc() {
     let myLi = document.createElement("li");
     myLi.className = "myLi";
     myLi.style.display = "inline-block";
-    myLi.style.fontSize = "50px";
+    myLi.style.fontSize = "40px";
     myLi.textContent = myText;
     myDiv.appendChild(myLi);
 
@@ -46,12 +46,9 @@ function myTodFunc() {
     a.textContent = "X";
     a.href = "javascript:void(0)";
     a.className = "remove";
-    a.style.marginLeft = "20px";
     a.style.position = "absolute";
-    a.style.right = "5px";
+    a.style.right = "0px";
     a.style.marginTop = "25px";
-    a.style.padding = "10px"
-    a.style.width = "10rem"
     myDiv.appendChild(a);
     
 
